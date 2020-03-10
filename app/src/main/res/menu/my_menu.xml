@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+        <item android:id="@+id/menu_music"
+            android:icon="@drawable/ic_library_music"
+            android:title="@string/music"/>
+        <item android:id="@+id/menu_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/feedback"/>
+    </group>
+    <item android:title="Communication">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+        </menu>
+    </item>
+</menu>
